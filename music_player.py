@@ -13,8 +13,8 @@ def make_list(list_path):
 
 
 def player(player_path):
-    dlc_path = r'C:\Users\Tom\Documents\Python_Projects\music_player\dlcplayer\dlc.exe'
-    process = dlc_path + ' -w "' + player_path + '"'
+    mplayer = r'C:\Users\Tom\Documents\Python_Projects\music_player\MPlayer\mplayer.exe "'
+    process = mplayer + player_path + '"'
     subprocess.Popen(process, stdout=subprocess.PIPE).stdout.read()
 
 
