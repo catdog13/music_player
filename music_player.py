@@ -19,7 +19,8 @@ def player(player_path):
 
 
 if __name__ == '__main__':
-    make_list('D:\\Music\\foobar2000')
+    make_list('D:\\Music\\foobar2000\\')
+    print('Press Enter to skip current song and Space bar to pause')
     while True:
         random.shuffle(song_list)
         for path in song_list:
